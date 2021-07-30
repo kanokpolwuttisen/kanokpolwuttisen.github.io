@@ -29,3 +29,10 @@ figure {
     max-width: auto; /* demo; set some amount (px or %) if you can */
     margin: 10px auto; /* not needed unless you want centered */
 }
+#heading{
+    text-decoration: none;
+    color: #0000ff;
+}
+.popular{
+    border: 4px dotted red;
+}
