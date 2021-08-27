@@ -1,30 +1,114 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <h1 align="center">Khon Kaen University</h1>
-        <link rel="stylesheet" href="styles/index.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-        <title>kanokpol's example page</title>
-    </head>
-    <body>
-        <div align ="center">
-            <img src="images/kku1_logo.jpg" title="KKU1" alt="My test image">
-            <figure>    
-                <img src="images/kku2_logo.jpg" title="KKU2">
-                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-            </figure>
-        </div>
-            <p id="heading">Khon Kaen University has many to exercise</p>
-            <ul>
-                <li class="popular">สระพลาสติก</li>
-                <li>สนามกีฬา 50 ปี มหาวิทยาลัยขอนแก่น</li>
-                <li class="popular">บึงศรีฐานมหาวิทยาลัยขอนแก่น</li>
-            </ul>
-            <p>
-                Have you been in these places? If not.please do so. For more information.please click 
-                <a href="https://www.kku.ac.th/">Khon Kaen University</a>
-            </p>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 align="center">Khon Kaen University</h1>
+    <link rel="stylesheet" href="styles/index.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <title>kanokpol's example page</title>
+    <style>
+        /* iphone5/SE */
+        @media only screen and (max-width: 320px) {
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                width: 250px;
+                border: 10px solid rgb(197, 19, 19);
+            }
+            h1 {
+                font-size: 32px;
+            }
+            p {
+                font-size: 30px;
+            }
+            li {
+                font-size: 20px;
+            }
+            figcaption {
+                font-size: 18px;
+            }
+        }
+        @media (orientation: landscape) and (max-width: 568px) {
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                width: 400px;
+                border: 10px solid black;
+                
+            }
+            h1 {
+                font-size: 32px;
+            }
+        }
+        /* ipad */
+        @media only screen and (max-width: 768px) {
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                width: 650px;
+                border: 10px solid black;
+            }
+            h1 {
+                font-size: 32px;
+            }
+            p {
+                font-size: 24px;
+            }
+            li {
+                font-size: 20px;
+            }
+            figcaption {
+                font-size: 18px;
+            }
+        }
+
+        @media (orientation: landscape) and (max-width: 1024px) {
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                width: 800px;
+                border: 10px solid black;
+            }
+            h1 {
+                font-size: 32px;
+            }
+            p {
+                font-size: 24px;
+            }
+            li {
+                font-size: 20px;
+            }
+            figcaption {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <img src="images/kku1_logo.jpg" title="KKU1" alt="My test image">
+        <figure>
+            <img src="images/kku2_logo.jpg" title="KKU2">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+        </figure>
+    </div>
+    <p id="heading">Khon Kaen University has many to exercise</p>
+    <ul>
+        <li class="popular">สระพลาสติก</li>
+        <li>สนามกีฬา 50 ปี มหาวิทยาลัยขอนแก่น</li>
+        <li class="popular">บึงศรีฐานมหาวิทยาลัยขอนแก่น</li>
+    </ul>
+    <p>
+        Have you been in these places? If not.please do so. For more information.please click
+        <a href="https://www.kku.ac.th/">Khon Kaen University</a>
+    </p>
+</body>
+
 </html>
